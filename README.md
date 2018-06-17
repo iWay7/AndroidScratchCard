@@ -24,7 +24,7 @@ Android 刮刮卡视图。
     android:layout_gravity="center" />
 ```
 
-##### 设置内容层及其回调
+##### 设置内容层及其回调：
 ```
 mContentView = (ImageView) findViewById(R.id.contentView);
 mContentView.setImageBitmap(AssetsHelper.readImageFile(this, "image.jpg"));
@@ -39,7 +39,7 @@ mScratchCard.setOnScratchListener(new OnScratchListener() {
 });
 ```
 
-##### 其他可配置参数
+##### 其他可配置参数：
 ```
 mScratchCard.setScratchDrawable(...); // 设置蒙版 Drawable
 mScratchCard.setScratchWidth(...); // 设置擦除的宽度，以像素为单位
